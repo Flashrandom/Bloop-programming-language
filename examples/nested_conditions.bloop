@@ -1,0 +1,10 @@
+put 25 into age
+put 1 into isStudent
+
+print "Evaluating user profile:"
+
+if age < 30 then:
+    print "Profile check: age is under 30"
+
+if isStudent == 1 then:
+    print "Profile check: user is a student"

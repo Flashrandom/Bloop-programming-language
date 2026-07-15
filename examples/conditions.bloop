@@ -1,0 +1,10 @@
+put 85 into score
+
+if score > 90 then:
+    print "Grade A"
+
+if score > 80 then:
+    print "Grade B"
+
+if score < 60 then:
+    print "Grade F"

@@ -1,0 +1,17 @@
+put 15 into a
+put 5 into b
+
+put a + b into sum
+put a - b into diff
+put a * b into prod
+put a / b into quot
+
+print "Arithmetic operations on 15 and 5:"
+print "Sum:"
+print sum
+print "Difference:"
+print diff
+print "Product:"
+print prod
+print "Quotient:"
+print quot

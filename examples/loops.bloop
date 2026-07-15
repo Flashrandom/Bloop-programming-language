@@ -1,0 +1,6 @@
+print "Counting down..."
+
+repeat 5 times:
+    print "Tick!"
+
+print "Liftoff!"

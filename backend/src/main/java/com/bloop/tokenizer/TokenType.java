@@ -1,0 +1,9 @@
+package com.bloop.tokenizer;
+
+public enum TokenType {
+    PUT, INTO, PRINT, IF, THEN, REPEAT, TIMES,
+    NUMBER, STRING, IDENTIFIER,
+    PLUS, MINUS, STAR, SLASH,
+    GREATER, LESS, EQUAL_EQUAL,
+    NEWLINE, EOF
+}

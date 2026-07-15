@@ -1,0 +1,2 @@
+print "Hello from BLOOP!"
+print "This is your first compiled script running in a web sandbox!"

@@ -1,0 +1,51 @@
+# ==============================
+# Java / Maven
+# ==============================
+target/
+backend/target/
+*.class
+*.jar
+*.war
+
+# ==============================
+# Node / Vite
+# ==============================
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# ==============================
+# Environment Variables
+# ==============================
+.env
+.env.local
+.env.production
+frontend/.env
+backend/.env
+
+# ==============================
+# IntelliJ IDEA
+# ==============================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs
+# ==============================
+*.log
+npm-debug.log*
+

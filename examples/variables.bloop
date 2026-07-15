@@ -1,0 +1,9 @@
+put 10 into x
+put 20 into y
+put x + y into z
+print "x is:"
+print x
+print "y is:"
+print y
+print "z = x + y is:"
+print z
