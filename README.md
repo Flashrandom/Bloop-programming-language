@@ -99,3 +99,9 @@ The Spring Boot application can be deployed on **Railway**:
 1. Connect your repository to Railway.
 2. Railway will detect the `Dockerfile` at the root and automatically build the multi-stage image.
 3. Configure your server port variable `PORT` to `8080`.
+
+## Some Screenshot of the interpreter
+
+<img width="1536" height="738" alt="image" src="https://github.com/user-attachments/assets/52d8a277-6bf8-4fbd-a195-7e88e430c0e4" />
+<img width="1536" height="733" alt="image" src="https://github.com/user-attachments/assets/810f1c62-fd04-4a0e-a996-8e59c9df20e1" />
+
