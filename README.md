@@ -85,20 +85,38 @@ This builds the React app, copies the compiled static assets into Spring Boot's 
 
 ---
 
-## 🌐 Deployment Specifications
+## 🌐 Deployment
 
-### Frontend (Vercel)
-The React SPA can be deployed on **Vercel**:
-1. Connect your GitHub repository to Vercel.
-2. Set root directory to `frontend`.
-3. Set build command to `npm run build` and output directory to `dist`.
-4. Configure environment variable (if separating API hosting) `VITE_API_URL` to point to your backend domain.
+The entire BLOOP application is deployed as a **single Dockerized application** on Railway.
 
-### Backend (Railway)
-The Spring Boot application can be deployed on **Railway**:
-1. Connect your repository to Railway.
-2. Railway will detect the `Dockerfile` at the root and automatically build the multi-stage image.
-3. Configure your server port variable `PORT` to `8080`.
+### Live Demo
+
+🔗 https://bloop-programming-language-production.up.railway.app
+
+### Deployment Architecture
+
+```
+User
+   │
+   ▼
+Railway
+   ├── React Frontend
+   ├── Spring Boot REST API
+   └── BLOOP Interpreter
+```
+
+The Docker image performs the following steps:
+
+1. Builds the React frontend using Vite.
+2. Copies the generated static assets into the Spring Boot application.
+3. Packages the backend as an executable JAR.
+4. Serves both the frontend and backend from a single Railway deployment.
+
+To redeploy the application:
+
+1. Push changes to the `main` branch.
+2. Railway automatically detects the new commit.
+3. A new Docker image is built and deployed.
 
 ## Some Screenshot of the interpreter
 
