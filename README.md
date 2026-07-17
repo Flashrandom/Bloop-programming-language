@@ -103,5 +103,6 @@ The Spring Boot application can be deployed on **Railway**:
 ## Some Screenshot of the interpreter
 
 <img width="1536" height="738" alt="image" src="https://github.com/user-attachments/assets/52d8a277-6bf8-4fbd-a195-7e88e430c0e4" />
-<img width="1536" height="733" alt="image" src="https://github.com/user-attachments/assets/810f1c62-fd04-4a0e-a996-8e59c9df20e1" />
+<img width="1536" height="746" alt="image" src="https://github.com/user-attachments/assets/b2ae716a-8826-4b52-884b-d46525dc4460" />
+
 
